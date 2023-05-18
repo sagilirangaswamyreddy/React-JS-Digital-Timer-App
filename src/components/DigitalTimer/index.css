@@ -1,0 +1,133 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #1e293b;
+  font-size: 35px;
+}
+.time-and-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.time-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-size: contain;
+  min-height: 400px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.time-container {
+  height: 30%;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.time {
+  margin-bottom: 0px;
+  color: #00d9f5;
+}
+.running-pause-para {
+  color: #0f172a;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.start-reset-timer-limit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.start-reset-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.single-logo-text-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.icon-styles {
+  height: 25px;
+  margin-right: 10px;
+}
+.logo-para-styles {
+  font-size: 25px;
+  font-weight: 500;
+  color: #0f172a;
+}
+.set-timer-limit {
+  font-size: 14px;
+  color: #1e293b;
+  font-weight: 600;
+}
+.minus-and-plus-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.plus-minus-styles {
+  background-color: transparent;
+  border: 0px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.time-limit-num {
+  color: #0f172a;
+  background-color: #00d9f5;
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 22px;
+}
+.reset-btn-styles {
+  background-color: transparent;
+  border: 0px;
+}
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+@media (max-width: 767px) {
+  .bg-container {
+    background-image: linear-gradient(to bottom, #ffffff, #cffcf1, #defafe);
+    padding: 20px;
+    height: auto;
+    width: 100vw;
+  }
+  .time-and-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .time-bg-container {
+    width: 100%;
+  }
+}
